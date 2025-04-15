@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car World</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Car World 🚘</h1>
+    <p>The coolest cars on the planet</p>
+  </header>
+
+  <section class="car">
+    <h2>🏎️ Lamborghini Aventador</h2>
+    <img src="https://cdn.pixabay.com/photo/2017/05/29/18/33/lamborghini-2353876_960_720.jpg" alt="Lamborghini Aventador">
+    <p>The Aventador is a V12-powered supercar made by Lamborghini. It’s insanely fast and looks amazing.</p>
+  </section>
+
+  <section class="car">
+    <h2>🚗 Bugatti Chiron</h2>
+    <img src="https://cdn.pixabay.com/photo/2020/03/12/10/36/bugatti-4922837_960_720.jpg" alt="Bugatti Chiron">
+    <p>Bugatti Chiron is one of the fastest cars in the world. It can go over 300 mph!</p>
+  </section>
+
+  <footer>
+    <p>Created by [Your Name] | Free car fan site</p>
+  </footer>
+</body>
+</html>
