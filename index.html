@@ -7,6 +7,31 @@
   <h1>Welcome to Car World 🚗</h1>
   <p>Explore the fastest, coolest cars on the planet.</p>
 
-  <!-- Jotform iframe goes here if you have one -->
+  <!-- Jotform iframe goes here if you have one --><script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    window.AgentInitializer.init({
+      agentRenderURL: "https://eu.jotform.com/agent/01962dd47a457378bfe15f286d411f11b931",
+      rootId: "JotformAgent-01962dd47a457378bfe15f286d411f11b931",
+      formID: "01962dd47a457378bfe15f286d411f11b931",
+      queryParams: ["skipWelcome=1", "maximizable=1"],
+      domain: "https://eu.jotform.com",
+      isDraggable: false,
+      background: "linear-gradient(180deg, #6C73A8 0%, #6C73A8 100%)",
+      buttonBackgroundColor: "#0066C3",
+      buttonIconColor: "#FFFFFF",
+      variant: false,
+      customizations: {
+        "greeting": "Yes",
+        "greetingMessage": "Hi! How can I assist you in the knowledge of cars  \n ",
+        "openByDefault": "No",
+        "pulse": "Yes",
+        "position": "left",
+        "autoOpenChatIn": "0"
+      },
+      isVoice: false,
+    });
+  });
+</script>
 </body>
 </html>
